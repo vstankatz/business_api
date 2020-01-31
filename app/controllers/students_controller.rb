@@ -3,9 +3,19 @@ class StudentsController < ApplicationController
 
   # GET /students
   def index
+    if params[:query]
+      @students = Student.search(params[:query])
+      if @students.blank
+        render status: 200, json: {
+          message: "No results found."
+        }
+      else
+        render json: @students
+      end
+    else
     @students = Student.all
-
     render json: @students
+    end
   end
 
   # GET /students/1
@@ -26,8 +36,11 @@ class StudentsController < ApplicationController
 
   # PATCH/PUT /students/1
   def update
-    if @student.update(student_params)
-      render json: @student
+    @student = Student.find(params[:id])
+    if @student.update!(student_params)
+      render status: 200, json: {
+        message: "Student has been updated."
+      }
     else
       render json: @student.errors, status: :unprocessable_entity
     end
@@ -35,7 +48,11 @@ class StudentsController < ApplicationController
 
   # DELETE /students/1
   def destroy
-    @student.destroy
+    if @student.destroy
+      render status: 200, json: {
+        message: "Student has been deleted."
+      }
+    end
   end
 
   private
@@ -46,13 +63,6 @@ class StudentsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def student_params
-      # params = params.to_h
-      params.require(:student).permit{{
-          :name}
-          {:linkedin}
-          {:github,}
-          {:status}
-          {:bio}
-        }
-      end
+      params.require(:student).permit(:name, :linkedin, :github, :status, :bio)
     end
+end
