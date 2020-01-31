@@ -47,15 +47,12 @@ class StudentsController < ApplicationController
     # Only allow a trusted parameter "white list" through.
     def student_params
       # params = params.to_h
-      ActionController::Parameters.new(params)
-      params.require(:student).map do |s|
-        ActionController::Parameters.new(s).permit(
-          :name,
-          :linkedin,
-          :github,
-          :status,
-          :bio
-        )
+      params.require(:student).permit{{
+          :name}
+          {:linkedin}
+          {:github,}
+          {:status}
+          {:bio}
+        }
       end
     end
-end
