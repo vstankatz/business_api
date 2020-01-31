@@ -87,14 +87,15 @@ RSpec.describe StudentsController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
+        { :name => 'Harry Tuttle', :bio => 'Just a normal IOI employee.' }
       }
 
       it "updates the requested student" do
         student = Student.create! valid_attributes
         put :update, params: {id: student.to_param, student: new_attributes}, session: valid_session
         student.reload
-        skip("Add assertions for updated state")
+        expect(response).to have_http_status(:ok)
+        expect(response.content_type).to eq('application/json')
       end
 
       it "renders a JSON response with the student" do
