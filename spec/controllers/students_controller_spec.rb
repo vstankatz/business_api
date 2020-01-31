@@ -33,7 +33,7 @@ RSpec.describe StudentsController, type: :controller do
   }
 
   let(:invalid_attributes) {
-    { :height => "5'6", :eye_color => 'green'}
+    { :name => "", :bio => ""}
   }
 
   # This should return the minimal set of values that should be in the session

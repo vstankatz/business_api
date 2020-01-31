@@ -37,7 +37,7 @@ class StudentsController < ApplicationController
   # PATCH/PUT /students/1
   def update
     @student = Student.find(params[:id])
-    if @student.update!(student_params)
+    if @student.update(student_params)
       render status: 200, json: {
         message: "Student has been updated."
       }
