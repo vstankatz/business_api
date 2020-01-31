@@ -29,7 +29,7 @@ RSpec.describe StudentsController, type: :controller do
   # Student. As you add validations to Student, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
+    { :name => 'Bryce Lynch', :github => 'github.com/parzival', :linkedin => 'linkedin.com/wade_watts', :status => 'seeking', :bio => 'Teenager by day, world renowned gunter by night.' } 
   }
 
   let(:invalid_attributes) {
