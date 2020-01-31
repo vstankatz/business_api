@@ -29,11 +29,11 @@ RSpec.describe StudentsController, type: :controller do
   # Student. As you add validations to Student, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    { :name => 'Bryce Lynch', :github => 'github.com/parzival', :linkedin => 'linkedin.com/wade_watts', :status => 'seeking', :bio => 'Teenager by day, world renowned gunter by night.' } 
+    { :name => 'Bryce Lynch', :github => 'github.com/parzival', :linkedin => 'linkedin.com/wade_watts', :status => 'seeking', :bio => 'Teenager by day, world renowned gunter by night.' }
   }
 
   let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
+    { :height => "5'6", :eye_color => 'green'}
   }
 
   # This should return the minimal set of values that should be in the session
