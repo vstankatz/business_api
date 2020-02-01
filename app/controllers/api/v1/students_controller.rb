@@ -16,6 +16,9 @@ class StudentsController < ApplicationController
     elsif params[:random]
       @student = Student.all.sample
       render json: @student
+    elsif params[:names]
+      @students = Student.all
+      render json: @students,  each_serializer: NamesSerializer
     else
     @students = Student.all
     render json: @students
@@ -31,7 +34,6 @@ class StudentsController < ApplicationController
   def create
     @student = Student.new(student_params)
     if @student.save
-      route = "v1/students"
       render json: @student, status: :created, location: v1_student_url(@student)
     else
       render json: @student.errors, status: :unprocessable_entity
@@ -40,7 +42,6 @@ class StudentsController < ApplicationController
 
   # PATCH/PUT /students/1
   def update
-    @student = Student.find(params[:id])
     if @student.update(student_params)
       render status: 200, json: {
         message: "Student has been updated."
