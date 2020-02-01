@@ -23,64 +23,64 @@ Student.create([{
 },
 {
   name: "Courtney Schild",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/courtschmort",
+  linkedin: "https://www.linkedin.com/in/courtneyschild/",
   status: "",
   bio: ""
 },
 {
   name: "Eliza Sohn",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/eliza85",
+  linkedin: "https://www.linkedin.com/in/eliza-sohn/",
   status: "",
   bio: ""
 },
 {
   name: "Eva Wiedmann",
   github: "",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/eva-wiedmann/",
   status: "",
   bio: ""
 },
 {
   name: "Joann Carter",
   github: "",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/joann-carter/",
   status: "",
   bio: ""
 },
 {
   name: "Lara Bjork",
   github: "",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/lara-bjork/",
   status: "",
   bio: ""
 },
 {
   name: "Lela Smith",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/larabjork",
+  linkedin: "https://www.linkedin.com/in/smith-lela/",
   status: "",
   bio: ""
 },
 {
   name: "Lillian Theuma",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/lillianTheuma",
+  linkedin: "https://www.linkedin.com/in/lillian-theuma/",
   status: "",
   bio: ""
 },
 {
   name: "Maria Ivy",
   github: "",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/masha-ivy/",
   status: "",
   bio: ""
 },
 {
   name: "Veronica Stanley-Katz",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/vstankatz",
+  linkedin: "https://www.linkedin.com/in/vstankatz/",
   status: "",
   bio: ""
 }
