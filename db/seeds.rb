@@ -170,8 +170,8 @@ Student.create([{
 },
 {
   name: "Kyle Wymer",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/wymerkd",
+  linkedin: "https://www.linkedin.com/in/kylewymer/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -184,8 +184,8 @@ Student.create([{
 },
 {
   name: "Lee Pedersen",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/LeePedersen",
+  linkedin: "https://www.linkedin.com/in/lrpedersen/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -198,8 +198,8 @@ Student.create([{
 },
 {
   name: "Liam Kenna",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/LiamPKenna",
+  linkedin: "https://www.linkedin.com/in/liam-kenna/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -212,8 +212,8 @@ Student.create([{
 },
 {
   name: "Marcus Jensen",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/marcusjensen15",
+  linkedin: "https://www.linkedin.com/in/marcus-jensen15/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -226,43 +226,43 @@ Student.create([{
 },
 {
   name: "Michael Wells",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/Michael-Wayne-Wells",
+  linkedin: "https://www.linkedin.com/in/michael-wayne-wells/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Nathan Powers",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/3t8U",
+  linkedin: "https://www.linkedin.com/in/3t8u/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Noah Horwitz",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/nhhor",
+  linkedin: "https://www.linkedin.com/in/noah-horwitz/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Peter Wells",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/unfinishedideas",
+  linkedin: "https://www.linkedin.com/in/petethebeat/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Saul Ordonez",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/Saul-Ordonez",
+  linkedin: "https://www.linkedin.com/in/sauleordonez/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Tyler Yates",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/YTyler",
+  linkedin: "https://www.linkedin.com/in/tyler-yates/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
