@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "Students", type: :request do
   let!(:students) { FactoryBot.create_list(:student, 20)}
-  before {get '/students'}
+  before {get '/v1/students'}
 
   describe "GET /students" do
     it "returns all students" do
