@@ -39,7 +39,7 @@ _This program was designed to allow anyone, but ideally someone looking for empl
       * _In the input section go to the Params tab and insert 'query' in the key column and add what you want to search for in the corresponding value column._
   * _To add a student:_
     * _Change the dropdown-list to POST while still on the standard address. Change to the Body tab in the input section and insert:_
-```
+    ```
     {
       "student": {
 
