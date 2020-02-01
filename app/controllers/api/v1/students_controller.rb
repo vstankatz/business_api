@@ -25,6 +25,15 @@ class StudentsController < ApplicationController
     elsif params[:info]
       @students = Student.all
       render json: @students,  each_serializer: AboutSerializer
+    elsif params[:seeking]
+      @students = Student.seeking
+      if @students.blank?
+        render status: 200, json: {
+          message: "No results found."
+        }
+      else
+      render json: @students
+    end
     else
     @students = Student.all
     render json: @students
