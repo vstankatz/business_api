@@ -6,7 +6,7 @@ RSpec.describe "Students", type: :request do
 
   describe "GET /students" do
     it "returns all students" do
-      get students_path
+      get v1_students_path
       expect(JSON.parse(response.body).size).to eq(20)
     end
 
@@ -17,7 +17,7 @@ RSpec.describe "Students", type: :request do
 
   describe "POST /students" do
     before do
-      post '/students', params:{:student => { :name => 'Bryce Lynch', :github => 'github.com/parzival', :linkedin => 'linkedin.com/wade_watts', :status => 'seeking', :bio => 'Teenager by day, world renowned gunter by night.' } }
+      post '/v1/students', params:{:student => { :name => 'Bryce Lynch', :github => 'github.com/parzival', :linkedin => 'linkedin.com/wade_watts', :status => 'seeking', :bio => 'Teenager by day, world renowned gunter by night.' } }
     end
     it "returns student name" do
       expect(JSON.parse(response.body)['name']).to eq('Bryce Lynch')

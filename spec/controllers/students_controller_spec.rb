@@ -23,7 +23,7 @@ require 'rails_helper'
 # removed from Rails core in Rails 5, but can be added back in via the
 # `rails-controller-testing` gem.
 
-RSpec.describe StudentsController, type: :controller do
+RSpec.describe Api::V1::StudentsController, type: :controller do
 
   # This should return the minimal set of attributes required to create a valid
   # Student. As you add validations to Student, be sure to
@@ -70,7 +70,7 @@ RSpec.describe StudentsController, type: :controller do
         post :create, params: {student: valid_attributes}, session: valid_session
         expect(response).to have_http_status(:created)
         expect(response.content_type).to eq('application/json')
-        expect(response.location).to eq(student_url(Student.last))
+        expect(response.location).to eq(v1_student_url(Student.last))
       end
     end
 

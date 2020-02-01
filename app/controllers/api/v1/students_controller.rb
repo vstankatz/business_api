@@ -27,9 +27,9 @@ class StudentsController < ApplicationController
   # POST /students
   def create
     @student = Student.new(student_params)
-
     if @student.save
-      render json: @student, status: :created, location: @student
+      route = "v1/students"
+      render json: @student, status: :created, location: v1_student_url(@student)
     else
       render json: @student.errors, status: :unprocessable_entity
     end
