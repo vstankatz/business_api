@@ -8,7 +8,7 @@ module Api::V1
         @students = Student.search(params[:query])
         if @students.blank?
           render status: 200, json: {
-            message: "No results found."
+            message: "No students found."
           }
         else
           render json: @students
@@ -54,7 +54,13 @@ module Api::V1
         end
       else
         @students = Student.all
-        render json: @students
+        if @students.blank?
+          render status: 200, json: {
+            message: "No students found."
+          }
+        else
+          render json: @students, each_serializer: AboutSerializer
+        end
       end
     end
 
