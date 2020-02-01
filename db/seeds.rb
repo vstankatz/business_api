@@ -8,11 +8,46 @@
 Student.destroy_all
 
 Student.create([{
+  name: "Ali Amirhamzeh",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
   name: "Angela Weber",
   github: "https://github.com/web1221",
   linkedin: "https://www.linkedin.com/in/angelaweber95/",
   status: "seeking",
   bio: "Temporary text about my life."
+},
+{
+  name: "Brett Cordell",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Bryon Burke",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Calvin Will",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Casey Idsinga",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
 },
 {
   name: "Celeste Morton",
@@ -22,11 +57,39 @@ Student.create([{
   bio: "Temporary text about my life."
 },
 {
+  name: "Chris Sanchez",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Colman Currie",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
   name: "Courtney Schild",
   github: "https://github.com/courtschmort",
   linkedin: "https://www.linkedin.com/in/courtneyschild/",
   status: "seeking",
   bio: "Temporary text about my life."
+},
+{
+  name: "Drew Peterson",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Dylan Manley",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
 },
 {
   name: "Eliza Sohn",
@@ -43,11 +106,74 @@ Student.create([{
   bio: "Temporary text about my life."
 },
 {
+  name: "Everett Lee-Wuollet",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "George Acosta",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Ike Esquivel-Pilloud",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Jaime Gensler",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Jay Winebrenner",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
   name: "Joann Carter",
   github: "https://github.com/lioness3",
   linkedin: "https://www.linkedin.com/in/joann-carter/",
   status: "seeking",
   bio: "Temporary text about my life."
+},
+{
+  name: "Jonathan Salfen",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Joshua Forman",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Judah Barton",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Kyle Wymer",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
 },
 {
   name: "Lara Bjork",
@@ -57,11 +183,25 @@ Student.create([{
   bio: "Temporary text about my life."
 },
 {
+  name: "Lee Pedersen",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
   name: "Lela Smith",
   github: "https://github.com/Leels",
   linkedin: "https://www.linkedin.com/in/smith-lela/",
   status: "seeking",
   bio: "Temporary text about my life."
+},
+{
+  name: "Liam Kenna",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
 },
 {
   name: "Lillian Theuma",
@@ -71,11 +211,60 @@ Student.create([{
   bio: "Temporary text about my life."
 },
 {
+  name: "Marcus Jensen",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
   name: "Maria Ivy",
   github: "https://github.com/mashachicken",
   linkedin: "https://www.linkedin.com/in/masha-ivy/",
   status: "seeking",
   bio: "Temporary text about my life."
+},
+{
+  name: "Michael Wells",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Nathan Powers",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Noah Horwitz",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Peter Wells",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Saul Ordonez",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
+},
+{
+  name: "Tyler Yates",
+  github: "",
+  linkedin: "",
+  status: "seeking",
+  bio: ""
 },
 {
   name: "Veronica Stanley-Katz",
