@@ -6,7 +6,7 @@ class StudentsController < ApplicationController
   def index
     if params[:query]
       @students = Student.search(params[:query])
-      if @students.blank
+      if @students.blank?
         render status: 200, json: {
           message: "No results found."
         }
