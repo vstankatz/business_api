@@ -14,8 +14,8 @@ class StudentsController < ApplicationController
         render json: @students
       end
     elsif params[:random]
-      @students = Student.all.sample
-      render json: @students
+      @student = Student.all.sample
+      render json: @student
     else
     @students = Student.all
     render json: @students
