@@ -50,14 +50,8 @@ _This program was designed to allow anyone, but ideally someone looking for empl
         "bio": ""
       }
     }
-<<<<<<< HEAD
 ```
 
-=======
-  }
-    ```
-    
->>>>>>> d458cef5bc6833f0247dc6890512f45a7ff159af
     _be sure to fill out each attribute before pressing Send or it will fail to save!_
   * _To view an individual student append a backslash and the id associated with that student, we'll refer to this as the specific address. ```(example: http://localhost:3000/v1/students/65)```_
   * _To update a student:_
