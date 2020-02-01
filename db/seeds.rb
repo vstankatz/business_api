@@ -11,84 +11,84 @@ Student.create([{
   name: "Angela Weber",
   github: "https://github.com/web1221",
   linkedin: "https://www.linkedin.com/in/angelaweber95/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Celeste Morton",
   github: "https://github.com/Celesterenee7",
   linkedin: "https://www.linkedin.com/in/celestemorton/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Courtney Schild",
   github: "https://github.com/courtschmort",
   linkedin: "https://www.linkedin.com/in/courtneyschild/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Eliza Sohn",
   github: "https://github.com/eliza85",
   linkedin: "https://www.linkedin.com/in/eliza-sohn/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Eva Wiedmann",
-  github: "",
+  github: "https://github.com/evawiedmann",
   linkedin: "https://www.linkedin.com/in/eva-wiedmann/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Joann Carter",
-  github: "",
+  github: "https://github.com/lioness3",
   linkedin: "https://www.linkedin.com/in/joann-carter/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Lara Bjork",
-  github: "",
+  github: "https://github.com/larabjork",
   linkedin: "https://www.linkedin.com/in/lara-bjork/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Lela Smith",
-  github: "https://github.com/larabjork",
+  github: "https://github.com/Leels",
   linkedin: "https://www.linkedin.com/in/smith-lela/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Lillian Theuma",
   github: "https://github.com/lillianTheuma",
   linkedin: "https://www.linkedin.com/in/lillian-theuma/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Maria Ivy",
-  github: "",
+  github: "https://github.com/mashachicken",
   linkedin: "https://www.linkedin.com/in/masha-ivy/",
-  status: "",
+  status: "seeking",
   bio: ""
 },
 {
   name: "Veronica Stanley-Katz",
   github: "https://github.com/vstankatz",
   linkedin: "https://www.linkedin.com/in/vstankatz/",
-  status: "",
+  status: "seeking",
   bio: ""
 }
 # {
 #   name: "",
 #   github: "",
 #   linkedin: "",
-#   status: "",
+#   status: "seeking",
 #   bio: ""
 # },
 # {
