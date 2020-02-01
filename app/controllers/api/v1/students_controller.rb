@@ -59,7 +59,7 @@ module Api::V1
             message: "No students found."
           }
         else
-          render json: @students, each_serializer: AboutSerializer
+          render json: @students
         end
       end
     end
