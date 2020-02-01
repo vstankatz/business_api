@@ -9,8 +9,8 @@ Student.destroy_all
 
 Student.create([{
   name: "Ali Amirhamzeh",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/aliamirh",
+  linkedin: "https://www.linkedin.com/in/aliamirhamzeh/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -23,29 +23,29 @@ Student.create([{
 },
 {
   name: "Brett Cordell",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/Triknives",
+  linkedin: "https://www.linkedin.com/in/brett-cordell/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Bryon Burke",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/BryonBurke",
+  linkedin: "https://www.linkedin.com/in/bryonburkecodes/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Calvin Will",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/CalvinPVIII",
+  linkedin: "https://www.linkedin.com/in/calvinwill/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Casey Idsinga",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/cidsinga",
+  linkedin: "https://www.linkedin.com/in/caseyidsingaworks/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -58,15 +58,15 @@ Student.create([{
 },
 {
   name: "Chris Sanchez",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/sanchito59",
+  linkedin: "https://www.linkedin.com/in/chris--sanchez/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Colman Currie",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/ColmanC19",
+  linkedin: "https://www.linkedin.com/in/colman-currie/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -79,15 +79,15 @@ Student.create([{
 },
 {
   name: "Drew Peterson",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/DrewAPeterson7671",
+  linkedin: "https://www.linkedin.com/in/drew-a-peterson/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Dylan Manley",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/dylan12manley",
+  linkedin: "https://www.linkedin.com/in/dylan-manley-pdx/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -107,36 +107,36 @@ Student.create([{
 },
 {
   name: "Everett Lee-Wuollet",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/ELee-Wuollet13",
+  linkedin: "https://www.linkedin.com/in/everett-leewuollet/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "George Acosta",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/GACOSTA1988",
+  linkedin: "https://www.linkedin.com/in/george-acosta/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Ike Esquivel-Pilloud",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/ikemanep1",
+  linkedin: "https://www.linkedin.com/in/isaac-esquivel-pilloud/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Jaime Gensler",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/JaimeGensler/",
+  linkedin: "https://www.linkedin.com/in/jaimegensler/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Jay Winebrenner",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/Jaywinebrenner",
+  linkedin: "https://www.linkedin.com/in/jaywinebrenner/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
@@ -149,22 +149,22 @@ Student.create([{
 },
 {
   name: "Jonathan Salfen",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/jonathansalfen",
+  linkedin: "https://www.linkedin.com/in/jonathansalfen/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Joshua Forman",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/JPForman",
+  linkedin: "https://www.linkedin.com/in/joshua-forman/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
 {
   name: "Judah Barton",
-  github: "",
-  linkedin: "",
+  github: "https://github.com/jbar485",
+  linkedin: "https://www.linkedin.com/in/judah-barton/",
   status: "seeking",
   bio: "Temporary text about my life."
 },
