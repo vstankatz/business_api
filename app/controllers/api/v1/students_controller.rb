@@ -19,6 +19,12 @@ class StudentsController < ApplicationController
     elsif params[:names]
       @students = Student.all
       render json: @students,  each_serializer: NamesSerializer
+    elsif params[:links]
+      @students = Student.all
+      render json: @students,  each_serializer: LinksSerializer
+    elsif params[:info]
+      @students = Student.all
+      render json: @students,  each_serializer: AboutSerializer
     else
     @students = Student.all
     render json: @students
