@@ -12,7 +12,7 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Angela Weber",
@@ -26,28 +26,28 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Bryon Burke",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Calvin Will",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Casey Idsinga",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Celeste Morton",
@@ -61,14 +61,14 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Colman Currie",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Courtney Schild",
@@ -82,14 +82,14 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Dylan Manley",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Eliza Sohn",
@@ -110,35 +110,35 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "George Acosta",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Ike Esquivel-Pilloud",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Jaime Gensler",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Jay Winebrenner",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Joann Carter",
@@ -152,28 +152,28 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Joshua Forman",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Judah Barton",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Kyle Wymer",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Lara Bjork",
@@ -187,7 +187,7 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Lela Smith",
@@ -201,7 +201,7 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Lillian Theuma",
@@ -215,7 +215,7 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Maria Ivy",
@@ -229,42 +229,42 @@ Student.create([{
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Nathan Powers",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Noah Horwitz",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Peter Wells",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Saul Ordonez",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Tyler Yates",
   github: "",
   linkedin: "",
   status: "seeking",
-  bio: ""
+  bio: "Temporary text about my life."
 },
 {
   name: "Veronica Stanley-Katz",
