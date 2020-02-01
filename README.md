@@ -56,8 +56,7 @@ _This program was designed to allow anyone, but ideally someone looking for empl
   * _To view an individual student append a backslash and the id associated with that student, we'll refer to this as the specific address. ```(example: http://localhost:3000/v1/students/65)```_
   * _To update a student:_
     * _Change the dropdown-list to PUT while on the specific address of the student you'd like to update. Change to the Body tab in the input section and insert:_
-    ```
-    {
+    ```{
       "student": {
 
         "name": "",
@@ -67,8 +66,8 @@ _This program was designed to allow anyone, but ideally someone looking for empl
         "bio": ""
       }
     }
-```
-    _fill in the attributes you'd like to update and delete the ones you'd like to keep the same before pressing Send, the program wont accept empty attributes._
+    ```
+    * _fill in the attributes you'd like to update and delete the ones you'd like to keep the same before pressing Send, the program wont accept empty attributes._
   * _To delete a student:_
     * _Change the dropdown-list to DELETE while on the specific address of the student you'd like to delete. Press Send._
 
